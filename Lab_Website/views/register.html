@@ -33,7 +33,98 @@
 					11. Submit Button (links to home page)
 
 			-->
-			<input type="submit" value="submit" class="btn btn-primary btn-block">
+			<form>
+			<div class="form-group row">
+    			<label for="input_id" class="col-sm-2 col-form-label">Full Name: </label>
+    			<div class="col-sm-10">
+      				<input type="name" class="form-control" name="my_name_field" placeholder="Enter name">
+    			</div>
+  			</div>
+  			<div class="form-group row">
+    			<label for="input_id" class="col-sm-2 col-form-label">Email Address: </label>
+    			<div class="col-sm-10">
+      				<input type="email" class="form-control" name="my_email_field" placeholder="Enter email">
+    			</div>
+  			</div>
+  			<div class="form-group row">
+    			<label for="input_id" class="col-sm-2 col-form-label">Password: </label>
+    			<div class="col-sm-10">
+      				<input type="password" class="form-control" name="my_pw_field" placeholder="Password">
+    			</div>
+  			</div>
+  			<div class="form-group row">
+    			<label for="input_id" class="col-sm-2 col-form-label">Confirm Password: </label>
+    			<div class="col-sm-10">
+      				<input type="password" class="form-control" name="my_pw_field" placeholder="Confirm Password">
+    			</div>
+  			</div>
+  			<div class="form-group row">
+    			<label for="input_id" class="col-sm-2 col-form-label">CU Boulder Alumni: </label>
+    			<div class="col-sm-10">
+      				<div class="form-check">
+  						<input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1">
+  						<label class="form-check-label" for="exampleRadios1">
+    					Yes
+  						</label>
+					</div>
+					<div class="form-check">
+  						<input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1">
+  						<label class="form-check-label" for="exampleRadios1">
+    					No
+  						</label>
+					</div>
+    			</div>
+  			</div>
+  			<div class="form-group row">
+    			<label for="input_id" class="col-sm-2 col-form-label">CU Boulder Student: </label>
+    			<div class="col-sm-10">
+      				<div class="form-check">
+  						<input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1">
+  						<label class="form-check-label" for="exampleRadios1">
+    					Yes
+  						</label>
+					</div>
+					<div class="form-check">
+  						<input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1">
+  						<label class="form-check-label" for="exampleRadios1">
+    					No
+  						</label>
+					</div>
+    			</div>
+  			</div>
+  			<div class="form-row">
+    			<label for="input_id" class="col-sm-2 col-form-label">Student Status: </label>
+    			<div class="form-group col-sm-10">
+      				<div class="form-check">
+  						<input class="col-sm-10 form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+  						<label class="col-form-check-label" for="exampleRadios1">
+    					Undergrad
+  						</label>
+  					</div>
+					<select name="select_choice" class="form-control">
+					<option selected>Select Student Status</option>
+  					<option value="1">Freshman</option>
+  					<option value="2">Sophomore</option>
+ 		 			<option value="3">Junior</option>
+ 		 			<option value="4">Senior</option>
+ 		 			<div class="col-form-check">
+  						<input class="col-form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+  						<label class="col-form-check-label" for="exampleRadios2">
+    					Grad
+  						</label>
+					<select name="select_choice2" class="form-control">
+					<option selected> Select Student Status</option>
+  					<option value="1">First Year</option>
+  					<option value="2">Second Year</option>
+ 		 			<option value="3">Third Year</option>
+ 		 			<option value="4">Other</option>
+ 		 			</div>
+ 		 		</div>
+  			</div>
+  		</div>
+  		<div class="form-group">
+  			<input type="submit" value="Submit" class="btn btn-primary btn-block">
+  		</div>
 		</form>
 	</div>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
