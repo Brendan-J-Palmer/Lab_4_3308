@@ -1,0 +1,106 @@
+<!-- Brendan Palmer -->
+<!DOCTYPE html>
+<html> ​
+	<head>
+		<title>​Sample Form</title>
+  		<meta charset="utf-8">
+  		<meta name="viewport" content="width=device-width, initial-scale=1">
+  		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+  		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+  		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+	​</head>
+	<body>
+		<div class="container">
+			<form action="home.html">
+				<form>
+					<h1>This is a sample form.</h1>
+					<br>
+					<label for="input_id" class="form-label font-weight-bold">Nickname </label>
+					<input type="name" class="form-control" name="my_name_field" placeholder="Enter Nickname">
+					<br>
+					<label for="input_id" class="form-label font-weight-bold">Email address</label>
+					<input type="email" class="form-control" name="my_email_field" placeholder="Enter email">
+					<br>
+					<label for="input_id" class="form-label font-weight-bold">Password </label>
+					<input type="password" class="form-control" name="my_pw_field" placeholder="Password">
+					<br>
+					<label for="input_id" class="form-label">Gender</label>
+      					<div class="custom-control custom-radio">
+  							<input type="radio" class="custom-control-input" id="defaultGroupExample1" name="groupOfDefaultRadios" checked>
+  							<label class="custom-control-label" for="defaultGroupExample1">Male</label>
+						</div>
+
+					<!-- Group of default radios - option 2 -->
+					<div class="custom-control custom-radio">
+  						<input type="radio" class="custom-control-input" id="defaultGroupExample2" name="groupOfDefaultRadios">
+  						<label class="custom-control-label" for="defaultGroupExample2">Female</label>
+					</div>
+
+					<!-- Group of default radios - option 3 -->
+					<div class="custom-control custom-radio">
+  						<input type="radio" class="custom-control-input" id="defaultGroupExample3" name="groupOfDefaultRadios">
+						<label class="custom-control-label" for="defaultGroupExample3">Other</label>
+					</div>
+					<div class="custom-control custom-radio">
+  						<input type="radio" class="custom-control-input" id="defaultGroupExample4" name="groupOfDefaultRadios">
+  						<label class="custom-control-label" for="defaultGroupExample4">Prefer not to say</label>
+					</div>
+					<br>
+					<label for="input_id" class="form-label">Security Question</label>
+					<div>
+						<select name="select_choice" class="col-md-6">
+						<option selected>What is your favorite type of pet</option>
+  						<option value="1">What is your favorite ride sharing service</option>
+  						<option value="2">Where do you want to work after you finish your education</option>
+  						</select>
+					</div>
+					
+					<br>
+					<label for="input_id" class="form-label font-weight-bold">Answer </label>
+					<input type="name" class="form-control" name="my_answer_field" placeholder="Security Answer">
+					<br>
+					<label for="input_id" class="form-label font-weight-bold">Favorite Programming Languages:</label>
+					<div>
+						<div class="form-check form-check-inline">
+  							<input class="form-check-input" type="checkbox" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+  							<label class="form-check-label" for="inlineRadio1">C/ C++</label>
+						</div>
+						<div class="form-check form-check-inline">
+							<input class="form-check-input" type="checkbox" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+							<label class="form-check-label" for="inlineRadio2">Java</label>
+						</div>
+						<div class="form-check form-check-inline">
+							<input class="form-check-input" type="checkbox" name="inlineRadioOptions" id="inlineRadio3" value="option3">
+							<label class="form-check-label" for="inlineRadio3">Javascript</label>
+						</div>
+						<div class="form-check form-check-inline">
+  							<input class="form-check-input" type="checkbox" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+  							<label class="form-check-label" for="inlineRadio1">Python</label>
+						</div>
+						<div class="form-check form-check-inline">
+							<input class="form-check-input" type="checkbox" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+							<label class="form-check-label" for="inlineRadio2">GO</label>
+						</div>
+						<div class="form-check form-check-inline">
+							<input class="form-check-input" type="checkbox" name="inlineRadioOptions" id="inlineRadio3" value="option3">
+							<label class="form-check-label" for="inlineRadio3">C#</label>
+						</div>
+						<div class="form-check form-check-inline">
+  							<input class="form-check-input" type="checkbox" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+  							<label class="form-check-label" for="inlineRadio1">PHP</label>
+						</div>
+					</div> 
+					<br>
+					<label class="form-label font-weight-bold">Additional Information</label>
+					<div class="form-group">
+  						<label for="comment">About Me</label>
+  						<div>
+  							<textarea cols="130" rows="5" id="comment"></textarea>
+  						</div>
+					</div>
+      				<button type="submit" class="btn btn-success border">Submit</button>
+				</form>
+			</form>
+		</div>
+	</body>
